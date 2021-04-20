@@ -4,6 +4,8 @@ Block Page allows users to create webpages using custom React components.
 
 After a user creates an account they can easily add, organize, and pass props to blocks. 
 
+Developed by @jadeallencook && @claytonlcook
+
 ## Terms
 
 **Site:** Collection of pages that contain blocks.
@@ -32,7 +34,7 @@ Within the user's node, they are able to create a new site:
 {
     example: {
         config: { ... },
-        routes: { ... }
+        routes: { ... },
         pages: { ... }
     }
 }
@@ -89,6 +91,7 @@ Blocks are stored at ```src/blocks``` and require these files:
 - **Index.jsx:** The main entry to load the component.
 - **Props.js:** Holds all of the props for the componet.
 - **Template.js:** Example props for demo purposes. 
+- **Block.test.js:** Test file for the block.
 
 ## Shared Configurations
 
