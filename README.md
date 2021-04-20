@@ -8,11 +8,11 @@ Developed by @jadeallencook && @claytonlcook
 
 ## Terms
 
-**Site:** Collection of pages that contain blocks.
-**Page:** Single view or route on a user's site. 
-**Block:** Reuseable component that can be added to a page.
-**Props:** Parameters that are used to customize blocks.
-**Dashboard:** Where the user is able to edit their site.
+- **Site:** Collection of pages that contain blocks.
+- **Page:** Single view or route on a user's site. 
+- **Block:** Reuseable component that can be added to a page.
+- **Props:** Parameters that are used to customize blocks.
+- **Dashboard:** Where the user is able to edit their site.
 
 ## Database Schema
 
