@@ -4,7 +4,7 @@ Blockpage allows users to create webpages using custom React components.
 
 After a user creates an account they can easily add, organize, and pass props to blocks. 
 
-Developed by [https://github.com/jadeallencook](@jadeallencook) & [https://github.com/claytonlcook](@claytonlcook)
+Developed by [@jadeallencook](https://github.com/jadeallencook) & [@claytonlcook](https://github.com/claytonlcook)
 
 [http://blockpage.io](blockpage.io)
 
