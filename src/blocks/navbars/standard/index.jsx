@@ -1,9 +1,9 @@
 import './style.scss';
 
-const Block = ({ config, key, props }) => {
+const Block = ({ config, props }) => {
   const { name, colors } = config;
   return (
-    <nav key={key} style={{ backgroundColor: colors.primary }}>
+    <nav style={{ backgroundColor: colors.primary }}>
       <div>{name}</div>
       <div></div>
     </nav>
