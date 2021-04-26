@@ -1,8 +1,12 @@
-nav {
-    position: fixed;
+header {
     width: 100%;
-    top: 0;
-    left: 0;
-    display: grid;
-    padding: 15px;
+    padding: 100px 50px 90px 50px;
+    box-sizing: border-box;
+    > h1, 
+    > p {
+        max-width: 400px;
+    }
+    > button {
+        margin-right: 15px;
+    }
 }

@@ -1,10 +1,12 @@
-# Block Page
+# Blockpage
 
 Block Page allows users to create webpages using custom React components. 
 
 After a user creates an account they can easily add, organize, and pass props to blocks. 
 
 Developed by @jadeallencook && @claytonlcook
+
+blockpage.io
 
 ## Terms
 
@@ -66,13 +68,21 @@ Once you've created your block using the template, add it to the ```index.js```.
 
 This file is used to load blocks into our application and pass key, config, and props.
 
+## Shared Components
+
+If a component is shared by other blocks, this component should be in the ```blocks/shared/```.
+
+- Button
+- Input
+- Link
+
 ## Shared Configurations
 
 In order to insure that sites are cohesive, we have shared configuration settings.
 
 ```js
 config: {
-    name: 'Blockchain.io',
+    name: 'Blockpage.io',
     font: 'lato',
     radius: '0px',
     colors: {

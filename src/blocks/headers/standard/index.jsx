@@ -1,13 +1,16 @@
-// Standard Navigation
 import './style.scss';
+import Button from '../../shared/button';
 
 const Block = ({ config, key, props }) => {
-  console.log(props, config);
-  const { name, colors } = config;
+  const { colors } = config;
+  const { title, subtext, buttons } = props;
   return (
-    <header key style={{ backgroundColor: colors.primary }}>
-      <div>{name}</div>
-      <div></div>
+    <header key={key} style={{ backgroundColor: colors.secondary }}>
+      <h1>{title}</h1>
+      <p>{subtext}</p>
+      {buttons.map(({ text, link }) => (
+        <Button props={{ text, link }} config={config} />
+      ))}
     </header>
   );
 };
