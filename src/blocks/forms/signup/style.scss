@@ -1,0 +1,12 @@
+form {
+    width: 100%;
+    padding: 100px 50px 90px 50px;
+    box-sizing: border-box;
+    > h1, 
+    > p {
+        max-width: 400px;
+    }
+    > input, button {
+        margin-right: 15px;
+    }
+}

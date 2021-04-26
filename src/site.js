@@ -37,6 +37,19 @@ const site = {
             link: '#'
           }]
         },
+      },
+      {
+        block: 'signup/standard',
+        props: {
+          title: 'Sign Up for Email!',
+          subtext: 'Get emails for new offers from Blockpage.',
+          type: 'email',
+          placeholder: 'johnsmith@gmail.com',
+          buttons: [{
+            text: 'Sign Up',
+            link: '#'
+          }]
+        },
       }
     ],
   },

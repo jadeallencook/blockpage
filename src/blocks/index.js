@@ -1,5 +1,6 @@
 import StandardNavbar from './navbars/standard';
 import StandardHeader from './headers/standard';
+import SignUpForm from './forms/signup';
 
 const blocks = {
   navbars: {
@@ -10,6 +11,11 @@ const blocks = {
   headers: {
     standard: ({ key, config, props }) => (
       <StandardHeader key={key} config={config} props={props} />
+    ),
+  },
+  signup: {
+    standard: ({ key, config, props }) => (
+      <SignUpForm key={key} config={config} props={props} />
     ),
   },
 };
