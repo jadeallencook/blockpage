@@ -6,17 +6,17 @@ After a user creates an account they can easily add, organize, and pass props to
 
 Developed by [@jadeallencook](https://github.com/jadeallencook) & [@claytonlcook](https://github.com/claytonlcook)
 
-[http://blockpage.io](blockpage.io)
+[blockpage.io](http://blockpage.io)
 
 ## Glossary
 
-- [https://github.com/jadeallencook/blockpage#terms](Terms)
-- [https://github.com/jadeallencook/blockpage#site-compilation](Site Compilation)
-- [https://github.com/jadeallencook/blockpage#creating-blocks](Creating Blocks)
-- [https://github.com/jadeallencook/blockpage#shared-components](Shared Components)
-- [https://github.com/jadeallencook/blockpage#shared-configurations](Shared Configurations)
-- [https://github.com/jadeallencook/blockpage#custom-fonts](Custom Fonts)
-- [https://github.com/jadeallencook/blockpage#database-schema](Database Schema)
+- [Terms](https://github.com/jadeallencook/blockpage#terms)
+- [Site Compilation](https://github.com/jadeallencook/blockpage#site-compilation)
+- [Creating Blocks](https://github.com/jadeallencook/blockpage#creating-blocks)
+- [Shared Components](https://github.com/jadeallencook/blockpage#shared-components)
+- [Shared Configurations](https://github.com/jadeallencook/blockpage#shared-configurations)
+- [Custom Fonts](https://github.com/jadeallencook/blockpage#custom-fonts)
+- [Database Schema](https://github.com/jadeallencook/blockpage#database-schema)
 
 ## Terms
 
