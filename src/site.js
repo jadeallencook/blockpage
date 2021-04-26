@@ -43,8 +43,10 @@ const site = {
         props: {
           title: 'Sign Up for Email!',
           subtext: 'Get emails for new offers from Blockpage.',
-          type: 'email',
-          placeholder: 'johnsmith@gmail.com',
+          inputs: [{
+            type: 'email',
+            text: 'johnsmith@email.com'
+          }],
           buttons: [{
             text: 'Sign Up',
             link: '#'
