@@ -14,6 +14,91 @@ Developed by @jadeallencook && @claytonlcook
 - **Props:** Parameters that are used to customize blocks.
 - **Dashboard:** Where the user is able to edit their site.
 
+## Site Compilation
+
+When a user accesses a site using a subdomain:
+
+**abc123.blockpage.io/example**
+
+The subdomain and path are used to load the appropriate site. 
+
+Once the site is loaded from Firebase, the application loops over the blocks.
+
+```js
+{pages.home.map(({ block, props }, index) =>
+    getBlock(block)({
+        key: `block-${index}`,
+        config: config,
+        props,
+    })
+)}
+```
+
+The ```getBlock``` method takes the block name (```navbar/standard```) and returns the block using the ```blocks/index.js``` file. 
+
+## Creating Blocks
+
+Blocks are stored at ```src/blocks``` and require these files:
+
+- **Index.jsx:** The main entry to load the block.
+- **Style.scss:** Style to be loaded into block. 
+- **Block.test.js:** Test file for the block.
+
+You can find a template directory at ```src/blocks/template```.
+
+Within the blocks directory, blocks are sorted by type and version. 
+
+All types should have a "standard" version:
+
+- ```blocks/navbar/standard```
+- ```blocks/header/standard```
+- ```blocks/footer/standard```
+- ```blocks/gallery/standard```
+
+After a standard version has been created, you can add custom versions:
+
+- ```standard/header/video```
+- ```standard/header/gallery```
+- ```standard/header/full```
+- ```standard/header/products```
+
+Once you've created your block using the template, add it to the ```index.js```.
+
+This file is used to load blocks into our application and pass key, config, and props.
+
+## Shared Configurations
+
+In order to insure that sites are cohesive, we have shared configuration settings.
+
+```js
+config: {
+    name: 'Blockchain.io',
+    font: 'lato',
+    radius: '0px',
+    colors: {
+        primary: '#111',
+        secondary: '#333',
+        background: '#222',
+        text: '#000'
+    }
+}
+```
+
+All blocks have access to these configuration settings. 
+
+## Custom Fonts
+
+We use Google fonts to host our custom fonts. 
+
+They are loaded via our app component and our ```src/api/fonts.js``` file.
+
+```js
+zenDots: {
+    font: 'Zen Dots',
+    link: 'Zen+Dots',
+}
+```
+
 ## Database Schema
 
 Each user is given a database node that is generated using thier UID:
@@ -75,31 +160,3 @@ The pages node stores a node for each page, it's blocks, and their configuration
     }]
 }
 ```
-
-## Site Compilation
-
-When a user accesses a site using a subdomain:
-
-**abc123.blockpage.io/example**
-
-The subdomain to access the user's database node and the path loads the selected site. 
-
-## Creating Blocks
-
-Blocks are stored at ```src/blocks``` and require these files:
-
-- **Index.jsx:** The main entry to load the component.
-- **Props.js:** Holds all of the props for the componet.
-- **Template.js:** Example props for demo purposes. 
-- **Block.test.js:** Test file for the block.
-
-## Shared Configurations
-
-In order to insure that sites are cohesive, we have shared configuration settings.
-
-- Colors
-- Fonts
-- Border Radius
-- Name 
-
-All blocks have access to these configuration settings. 
