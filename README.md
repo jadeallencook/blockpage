@@ -10,10 +10,10 @@ Start your development environment by running `yarn serve`.
 
 ## Dashboard Features
 
-- **Edit Blocks:** Edit blocks that are in Storybook component explorer.
-- **Manage Pages:** Mange pages that are built using blocks.
-- **Configure Routes:** Configure router using pages.
-- **Update Theme:** Adjust style and project global settings.
+- Edit blocks that are in Storybook component explorer.
+- Mange pages that are built using blocks within Storybook.
+- Configure the React router using pages.
+- Adjust style and project global settings.
 
 ## Developer's Guide
 
