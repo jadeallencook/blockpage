@@ -4,10 +4,11 @@
   "description": "The web tool that bridges design and development using the latest technologies.",
   "main": "index.js",
   "scripts": {
-    "test:clean": "rm -r react-storybook && rm -r react-app && yarn test:init",
-    "test:update": "node ./src/update",
-    "test:build": "node ./src/build",
-    "test:init": "node ./index.js test-app"
+    "clean": "rm -r react-storybook && rm -r react-app",
+    "update": "node ./src/update",
+    "build": "node ./src/build",
+    "serve": "echo SERVE",
+    "start": "npx create-react-app@latest react-app --template typescript && npx degit chromaui/intro-storybook-react-template react-storybook && yarn build"
   },
   "repository": {
     "type": "git",

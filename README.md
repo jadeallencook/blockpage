@@ -17,10 +17,10 @@ At the highest level there are only two steps:
 
 You can test your changes by using these commands:
 
-- **yarn test:init** - simulates blockpage init command
-- **yarn test:clean** - removes old boilerplates and runs blockpage init
-- **yarn test:update** - updates boilerplates using update script
-- **yarn test:build** - overwrites boilplate using build script
-- **yarn test:serve** - serves blockpage and boilerplates
+- **yarn start** - generate boilerplates and initialize dashboard.
+- **yarn clean** - removes directories for old boilerplates.
+- **yarn update** - updates boilerplates using update script
+- **yarn build** - overwrites boilplate using build script.
+- **yarn serve** - serves blockpage dashboard and boilerplates.
 
 The bulk of our proprietary logic is within the dashboard (where users are able to create new components, configure routes, and update the theme). Our dashboard is built using React and executes node scripts running on localhost.
