@@ -3,5 +3,5 @@
 const { exec } = require('child_process');
 
 module.exports = (parent) => {
-    console.log(true);
-}
+  console.log('BUILD...');
+};

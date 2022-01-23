@@ -1,10 +1,13 @@
 {
   "name": "blockpage",
   "version": "1.0.0",
-  "description": "",
+  "description": "The web tool that bridges design and development using the latest technologies.",
   "main": "index.js",
   "scripts": {
-    "test": "node ./index.js test-app"
+    "test:clean": "rm -r react-storybook && rm -r react-app && yarn test:init",
+    "test:update": "node ./src/update",
+    "test:build": "node ./src/build",
+    "test:init": "node ./index.js test-app"
   },
   "repository": {
     "type": "git",
