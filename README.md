@@ -33,8 +33,8 @@ At the highest level there are only two steps:
 
 You can test your changes by using these commands:
 
-`yarn start` - generate boilerplates and initialize dashboard.
-`yarn clean` - removes directories for old boilerplates.
-`yarn update` - updates boilerplates using update script
-`yarn build` - overwrites boilplate using build script.
-`yarn serve` - serves blockpage dashboard and boilerplates.
+- `yarn start` - generate boilerplates and initialize dashboard.
+- `yarn clean` - removes directories for old boilerplates.
+- `yarn update` - updates boilerplates using update script
+- `yarn build` - overwrites boilplate using build script.
+- `yarn serve` - serves blockpage dashboard and boilerplates.
