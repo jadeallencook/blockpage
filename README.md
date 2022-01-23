@@ -8,12 +8,21 @@ Generate a new project by running `npx blockpage project-name`.
 
 Start your development environment by running `yarn serve`.
 
+## Common Terminology
+
+- **Block:** A component created using building blocks.
+- **Page:** A collection of components displayed on a route.
+- **Route:** Mapping of URL to a certain page.
+- **Theme:** Global settings such as styles.
+
 ## Dashboard Features
 
-- Edit blocks that are in Storybook component explorer.
-- Mange pages that are built using blocks within Storybook.
-- Configure the React router using pages.
-- Adjust style and project global settings.
+- Edit blocks and manage pages.
+- Configure the router and theme.
+
+## Additional Terminology
+
+- **Building Blocks:** Atomic blocks used to build larger blocks.
 
 ## Developer's Guide
 
