@@ -1,3 +1,7 @@
 /react-app
 /react-storybook
 /node_modules
+yarn.lock
+yarn-error.log
+/cache
+/dist

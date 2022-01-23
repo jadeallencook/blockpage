@@ -8,7 +8,8 @@
     "update": "node ./src/update",
     "build": "node ./src/build",
     "serve": "echo SERVE",
-    "start": "npx create-react-app@latest react-app --template typescript && npx degit chromaui/intro-storybook-react-template react-storybook && yarn build"
+    "start": "npx create-react-app@latest react-app --template typescript && npx degit chromaui/intro-storybook-react-template react-storybook && yarn build",
+    "test": "node ./src/test"
   },
   "repository": {
     "type": "git",
