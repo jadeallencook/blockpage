@@ -2,6 +2,12 @@
 
 The web tool that bridges design and development using the latest technologies.
 
+## Getting Started
+
+Generate a new project by running `blockpage project-name`.
+
+Start your development environment by running `blockpage serve`.
+
 ## Developer's Guide
 
 At the highest level there are only two steps:
