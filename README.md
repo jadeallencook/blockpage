@@ -10,10 +10,10 @@ Start your development environment by running `yarn serve`.
 
 ## Common Terminology
 
-**Block:** A component created using building blocks.
-**Page:** A collection of components displayed on a route.
-**Route:** Mapping of URL to a certain page.
-**Theme:** Global settings such as styles.
+- **Block:** A component created using building blocks.
+- **Page:** A collection of components displayed on a route.
+- **Route:** Mapping of URL to a certain page.
+- **Theme:** Global settings such as styles.
 
 ## Dashboard Features
 
@@ -22,7 +22,7 @@ Start your development environment by running `yarn serve`.
 
 ## Additional Terminology
 
-**Building Blocks:** Atomic blocks used to build larger blocks.
+- **Building Blocks:** Atomic blocks used to build larger blocks.
 
 ## Developer's Guide
 
