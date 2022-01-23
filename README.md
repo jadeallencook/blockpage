@@ -4,9 +4,9 @@ The web tool that bridges design and development using the latest technologies.
 
 ## Getting Started
 
-Generate a new project by running `blockpage project-name`.
+Generate a new project by running `npx blockpage project-name`.
 
-Start your development environment by running `blockpage serve`.
+Start your development environment by running `yarn serve`.
 
 ## Developer's Guide
 
