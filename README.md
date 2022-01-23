@@ -8,6 +8,13 @@ Generate a new project by running `npx blockpage project-name`.
 
 Start your development environment by running `yarn serve`.
 
+## Dashboard Features
+
+- **Edit Blocks:** Edit blocks that are in Storybook component explorer.
+- **Manage Pages:** Mange pages that are built using blocks.
+- **Configure Routes:** Configure router using pages.
+- **Update Theme:** Adjust style and project global settings.
+
 ## Developer's Guide
 
 At the highest level there are only two steps:
@@ -22,5 +29,3 @@ You can test your changes by using these commands:
 - **yarn update** - updates boilerplates using update script
 - **yarn build** - overwrites boilplate using build script.
 - **yarn serve** - serves blockpage dashboard and boilerplates.
-
-The bulk of our proprietary logic is within the dashboard (where users are able to create new components, configure routes, and update the theme). Our dashboard is built using React and executes node scripts running on localhost.
